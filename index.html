@@ -15,12 +15,12 @@
 <body>
 	<!--背景音乐-->
 	<audio src="白羊.m4a" autoplay="autoplay"></audio>
-    <div style="position: absolute; z-index: 0;">
+    <div style="position: absolute; z-index: 0; width: 100%; ">
         <canvas></canvas> <!--canvas 画布-->
     </div>
-    <div style="position: absolute; z-index: 10; align-self: center;">
+    <div style="position: absolute; z-index: 10; left: 25%; width: 50%">
         <br><br><br><br><br>
-        <center><p>写</p></center>
+        <center><p>请填写</p></center>
         <center><label for="name">你的名字：</label><input type="text" name="you" id="you" /></center><br>
         <center><label for="pw">你最爱的人：</label><input type="text" name="i" id="i" /></center><br>
         <center><input type="submit" value="提交" onclick="addUsers();" /></center>
